@@ -14,7 +14,6 @@ import {Auth} from "../context/Auth";
 export const Navbar = () => {
     const navigate = useNavigate()
     const {token} = useContext(Auth)
-    console.log("")
 
     return (
         <AppBar position="static">
